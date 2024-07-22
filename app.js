@@ -132,7 +132,7 @@ function handle_buyOrden() {
     message += `\nTotal a pagar: $${total.toFixed(2)}`;
 
     // Añade tu número de teléfono de WhatsApp aquí
-    const phoneNumber = "2644429649";
+    const phoneNumber = "3400580437";
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
     window.open(whatsappURL, "_blank");
